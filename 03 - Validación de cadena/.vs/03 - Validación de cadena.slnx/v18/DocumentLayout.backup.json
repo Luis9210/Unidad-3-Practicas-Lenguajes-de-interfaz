@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\luism\\source\\repos\\Unidad 3\\03 - Validaci\u00F3n de cadena\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10DA0E25-0A87-46FD-8B90-DAC6138E75B9}|03 - Validaci\u00F3n de cadena.vcxproj|C:\\Users\\luism\\source\\repos\\Unidad 3\\03 - Validaci\u00F3n de cadena\\main.asm||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{10DA0E25-0A87-46FD-8B90-DAC6138E75B9}|03 - Validaci\u00F3n de cadena.vcxproj|solutionrelative:main.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.asm",
+              "DocumentMoniker": "C:\\Users\\luism\\source\\repos\\Unidad 3\\03 - Validaci\u00F3n de cadena\\main.asm",
+              "RelativeDocumentMoniker": "main.asm",
+              "ToolTip": "C:\\Users\\luism\\source\\repos\\Unidad 3\\03 - Validaci\u00F3n de cadena\\main.asm",
+              "RelativeToolTip": "main.asm",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-10-28T16:29:03.015Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
