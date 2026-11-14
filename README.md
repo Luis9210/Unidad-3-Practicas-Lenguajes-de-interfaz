@@ -75,3 +75,16 @@ Repositorio con los proyectos prácticos de la **Unidad 3** enfocados en la arqu
 1. **IDE:** Visual Studio con la carga de trabajo de *Desarrollo para el escritorio con C++*.
 2. **Dependencia:** Biblioteca `Irvine32` vinculada en las propiedades del proyecto (`Include` y `Library Directories`).
 3. **Herramienta:** Ensamblador MASM habilitado en las dependencias de compilación (*Build Customizations -> masm*).
+
+
+---
+
+### 6. Proyecto Integrador — Sistema de Ventas e Inventario con Macros y `PROC USES` (`Proyecto Unidad 3`)
+* **¿Qué hace el programa?:**  
+  Actualiza el sistema de consola de ventas e inventario para una tienda de electrónica y microcontroladores (ESP32, Arduino, Sensores) aplicando la modularización de la Unidad 3:
+  1. **8 Macros (`MACRO` / `ENDM`)** declaradas al inicio de `main.asm`: `MostrarMensaje`, `MostrarTextoSinSalto`, `CapturarCadena`, `ImprimirNumeroDecimal`, `ImprimirImporte`, `multiplicarAB`, `CalcularDesplazamientoESI` y `AgregarCaracterArchivo`.
+  2. **Preservación automática de registros con `PROC USES`**: Todos los procedimientos reemplazan los `push`/`pop` manuales de prólogo/epílogo por declaraciones como `cargarDesdeArchivo PROC USES eax ebx ecx edx esi`, delegando al ensamblador MASM el resguardo y la restauración LIFO de los registros antes de `ret`.
+* **¿Qué se comprobó al ejecutarlo?:**  
+  * La expansión en línea de las macros para captura (`ReadString`), despliegue (`WriteString`), aritmética (`MUL`) y cálculo de índices con `ESI`.
+  * El equilibrio automático de la pila mediante `PROC USES` en las 18 subrutinas durante altas, búsquedas, entradas de almacén, ventas con descuento de mayoreo (10% en $\ge 5$ unidades), resumen financiero y persistencia validada en `Inventario.txt`.
+  * **Documentación completa del proyecto:** Ver [`Proyecto Unidad 3/README.md`](./Proyecto%20Unidad%203/README.md).

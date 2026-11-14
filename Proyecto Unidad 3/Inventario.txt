@@ -1,0 +1,3 @@
+ESP-001|Tarjeta ESP32 WiFi|185.50|25
+ARD-002|Arduino Uno R3|245.05|15
+SEN-003|Sensor Ultrasonico HC04|45.55|50
